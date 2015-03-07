@@ -3,6 +3,8 @@
 **JTCC** is a Java library to tokenize Thai text into a list of TCCs. The rules
 used to determine TCCs' boundaries are implemented as grammar using [ANTLR](http://www.antlr.org/).
 
+A compiled jar can be found [here](http://wittawat.com/software/JTCC-0.1.zip).
+
 
 ## What is TCC ?
 
