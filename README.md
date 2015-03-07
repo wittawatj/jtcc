@@ -53,7 +53,7 @@ Examples:
 This tokenizes the input passed from stdin and outputs to the default stdout
 (screen). 
 
-### Tokenize a content file=
+### Tokenize a content file
 
 Examples:
 
@@ -61,7 +61,7 @@ Examples:
 
 This tokenizes the content at the path C:/thaitext.txt, and outputs to the screen. 
 
-### Tokenize specified input string=
+### Tokenize specified input string
 
 Examples:
 
@@ -94,7 +94,7 @@ implemented in the near future.
     JTCC is a Java package for tokenizing Thai text into a list of TCCs.
     Copyright (C) 2010 Wittawat Jitkrittum
 
-    L1-LSMI is free software: you can redistribute it and/or modify
+    JTCC is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -106,3 +106,4 @@ implemented in the near future.
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see http://www.gnu.org/licenses/.
+
