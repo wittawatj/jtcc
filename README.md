@@ -1,23 +1,8 @@
 # JTCC
 
-## License 
-![GPL v3](http://www.gnu.org/graphics/gplv3-127x51.png "GPL v3")
+**JTCC** is a Java library to tokenize Thai text into a list of TCCs. The rules
+used to determine TCCs' boundaries are implemented as grammar using [ANTLR](http://www.antlr.org/).
 
-    JTCC is a Java package for tokenizing Thai text into a list of TCCs.
-    Copyright (C) 2010 Wittawat Jitkrittum
-
-    L1-LSMI is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see http://www.gnu.org/licenses/.
 
 ## What is TCC ?
 
@@ -26,13 +11,6 @@ inseparability derives from Thai writing system which is independent of any
 context. As a result, TCC can be determined by a simple list of rules
 describing e.g., what characters need to follow/precede other characters. 
 
-## What is *JTCC* 
-
-*JTCC* is a Java library to tokenize Thai text into a list of TCCs. The rules
-used to determine TCCs' boundaries are implemented as grammar using [ANTLR](http://www.antlr.org/).
-JTCC was designed with emphasis on ease of use. Programmers
-simply supply the Thai text to the provided facade, and get the output as a
-list of TCCs.
 
 ## TCC Examples 
 
@@ -108,3 +86,21 @@ Therefore, we will stick with the global context-independent TCC tokenizing
 rules for now. At least, the mentioned look-ahead strategy will not be
 implemented in the near future.
 
+## License 
+![GPL v3](http://www.gnu.org/graphics/gplv3-127x51.png "GPL v3")
+
+    JTCC is a Java package for tokenizing Thai text into a list of TCCs.
+    Copyright (C) 2010 Wittawat Jitkrittum
+
+    L1-LSMI is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/.
